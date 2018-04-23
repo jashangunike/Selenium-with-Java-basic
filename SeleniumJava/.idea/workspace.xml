@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunctionsinJava.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FunctionsinJava.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaBasic/FunctionsinJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#192#193#0" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
@@ -51,6 +51,15 @@
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#527#528#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaBasic/StaticArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/SeleniumTutorial/selectCalender.java" />
         <option value="$PROJECT_DIR$/src/SeleniumTutorial/selectCalenderTest.java" />
         <option value="$PROJECT_DIR$/src/JavaBasic/FunctionsinJava.java" />
+        <option value="$PROJECT_DIR$/src/JavaBasic/StaticArray.java" />
       </list>
     </option>
   </component>
@@ -177,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionsinJava">
+  <component name="RunManager" selected="Application.StaticArray">
     <configuration name="AlertPopUPHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SeleniumTutorial.AlertPopUPHandle" />
       <module name="SeleniumJava" />
@@ -211,8 +221,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StringManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasic.StringManipulation" />
+    <configuration name="StaticArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasic.StaticArray" />
       <module name="SeleniumJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -275,19 +285,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StringManipulation" />
       <item itemvalue="Application.ArrayList" />
       <item itemvalue="Application.AlertPopUPHandle" />
       <item itemvalue="Application.selectCalender" />
       <item itemvalue="Application.FunctionsinJava" />
+      <item itemvalue="Application.StaticArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticArray" />
         <item itemvalue="Application.FunctionsinJava" />
         <item itemvalue="Application.selectCalender" />
         <item itemvalue="Application.AlertPopUPHandle" />
         <item itemvalue="Application.ArrayList" />
-        <item itemvalue="Application.StringManipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -305,12 +315,12 @@
       <workItem from="1524341517007" duration="43000" />
       <workItem from="1524382768633" duration="11314000" />
       <workItem from="1524407111407" duration="12465000" />
-      <workItem from="1524505595337" duration="2197000" />
+      <workItem from="1524505595337" duration="4264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37793000" />
+    <option name="totallyTimeSpent" value="39860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -357,7 +367,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="103" />
+      <option name="time" value="105" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -562,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaBasic/FunctionsinJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
@@ -574,6 +584,13 @@
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#527#528#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaBasic/StaticArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
