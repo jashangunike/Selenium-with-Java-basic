@@ -1,6 +1,11 @@
 # Selenium-with-Java-basic
-#Prerequsites:
-1) Java IDE ( I am using IntelliJ Idea ultimate 2018.1 )
-2) Java environment on system 
-3) Selenium Jar files ( refer to selenium offical website of selenium for download )
-# Work in Progress
+
+Android Studio is a version of JetBrain's IntelliJ Community Edition specifically tailored for Android development. Installation instructions for Android Studio can be found here.
+
+IntelliJ IDEA contains all the features found in Android Studio. Setup for Android development is, however, a bit more involved since it does not include the Android SDK by default.
+
+Prerequisites
+Install Java 7 JDK
+Install IntelliJ IDEA
+Install Android SDK Tools
+Install Genymotion
