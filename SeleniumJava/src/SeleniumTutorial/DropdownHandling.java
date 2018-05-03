@@ -11,6 +11,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
+/*This is my Java Code
+ * www.github.com/jashangunike
+ * jashangunike@gmail.com
+ * Author-Jashandeep Singh */
+
 public class DropdownHandling {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver" , "H:\\software\\Selenium & Java & Components\\drivers\\chromedriverlat\\chromedriver.exe");
