@@ -4,8 +4,8 @@ Android Studio is a version of JetBrain's IntelliJ Community Edition specificall
 
 IntelliJ IDEA contains all the features found in Android Studio. Setup for Android development is, however, a bit more involved since it does not include the Android SDK by default.
 
-Prerequisites
-Install Java 7 JDK
-Install IntelliJ IDEA
-Install Android SDK Tools
-Install Genymotion
+# Prerequisites
+1) Install Java JDK
+2) Install IntelliJ IDEA
+3) Install Android SDK Tools
+4) Install Genymotion
