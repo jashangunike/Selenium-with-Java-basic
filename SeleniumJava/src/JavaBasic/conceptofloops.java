@@ -5,6 +5,7 @@ package JavaBasic;
  * jashangunike@gmail.com
  * Author-Jashandeep Singh */
 
+
 public class conceptofloops {
     public static void main(String[] args) {
 
@@ -15,6 +16,7 @@ public class conceptofloops {
              i++;
             System.out.println(i); // 2 3 4 5 6 7 8 9 10 11
            //System.out.println(i++); // 1 2 3 4 5 6 7 8 9 10
+            System.out.println();
 
         }
         //2. For Loop

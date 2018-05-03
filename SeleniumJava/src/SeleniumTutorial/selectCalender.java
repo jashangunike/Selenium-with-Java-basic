@@ -1,11 +1,9 @@
 package SeleniumTutorial;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,26 +13,23 @@ public class selectCalender {
 
     public static void main(String[] args) throws InterruptedException  {
 
-        System.setProperty("webdriver.gecko.driver", "H:\\software\\Selenium & Java & Components\\drivers\\geckodriver\\geckodriver.exe");
-        WebDriver driver = new FirefoxDriver(); // launch chrome
+        System.setProperty("webdriver.chrome.driver", "H:\\software\\Selenium & Java & Components\\drivers\\chromedriverlat\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver(); // launch chrome
 
-        driver.get("https://www.google.com/");
-      // driver.manage().window().maximize(); // maximize the window
-       // driver.manage().deleteAllCookies(); // delete all cookies
+         driver.get("https://demos.telerik.com/kendo-ui/datetimepicker/index");
+         driver.manage().window().maximize(); // maximize the window
+         driver.manage().deleteAllCookies(); // delete all cookies
 
-        // driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 
-        // driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-       // driver.get("https://www.freecrm.com/");
+         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 
-        //driver.findElement(By.name("username")).sendKeys("jashangunike");
-        //driver.findElement(By.name("password")).sendKeys("test@123");
-       // Thread.sleep(5000);
-        //driver.findElement(By.className("btn btn-small")).click();
+        //button to open calendar
+        WebElement selectDate = driver.findElement(By.xpath("//*[@id=\"example\"]/div/span/span/span[2]/span[1]/span"));
+        selectDate.click();
 
-        //driver.switchTo().frame("mainpanel");
-
-
+        WebElement nextLink = driver.findElement(By.xpath("//*[@id=\"b19ff3da-3a20-46f2-83be-165e4e90b834\"]/div[1]/a[3]/span"));
+        nextLink.click();
 
 
 
