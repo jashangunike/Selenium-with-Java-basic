@@ -17,6 +17,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+/*This is my Java Code
+ * www.github.com/jashangunike
+ * jashangunike@gmail.com
+ * Author-Jashandeep Singh */
+
 public class TC01 {
 
     static public WebDriver driver = null;

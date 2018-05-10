@@ -10,6 +10,11 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
+/*This is my Java Code
+ * www.github.com/jashangunike
+ * jashangunike@gmail.com
+ * Author-Jashandeep Singh */
+
 public class TC02 {
 
     static public WebDriver driver = null;
