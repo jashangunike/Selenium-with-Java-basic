@@ -12,6 +12,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\jashan\IdeaProjects\SeleniumJava\exportToHTML" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TC01.java" pinned="false" current-in-tab="false">
@@ -29,17 +32,29 @@
       <file leaf-file-name="TC03.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="1139">
               <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="142" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TC04.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TC04.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="541">
+              <caret line="77" column="142" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC05.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,7 +65,7 @@
       <file leaf-file-name="WrapperCLASS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaBasic/WrapperCLASS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="432">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
@@ -59,7 +74,7 @@
       <file leaf-file-name="TC02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="935">
               <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/JavaBasic/WrapperCLASS.java" />
         <option value="$PROJECT_DIR$/src/Ecommerce/TC03.java" />
         <option value="$PROJECT_DIR$/src/Ecommerce/TC04.java" />
+        <option value="$PROJECT_DIR$/src/Ecommerce/TC05.java" />
       </list>
     </option>
   </component>
@@ -116,7 +132,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
     <option name="y" value="1" />
     <option name="width" value="1346" />
@@ -128,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,8 +166,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TC04">
+  <component name="RunManager" selected="TestNG.TC05">
     <configuration name="WrapperCLASS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasic.WrapperCLASS" />
       <module name="SeleniumJava" />
@@ -225,35 +241,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="TC01.TC001" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ecommerce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Ecommerce" />
-      <option name="MAIN_CLASS_NAME" value="Ecommerce.TC01" />
-      <option name="METHOD_NAME" value="TC001" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration name="TC02.Testcase2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJava" />
@@ -342,6 +329,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="TC05" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Ecommerce" />
+      <option name="MAIN_CLASS_NAME" value="Ecommerce.TC05" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -365,19 +381,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.TC01.TC001" />
       <item itemvalue="TestNG.TC02.Testcase2" />
       <item itemvalue="TestNG.TC03.TestCase3" />
       <item itemvalue="Application.WrapperCLASS" />
       <item itemvalue="TestNG.TC04" />
+      <item itemvalue="TestNG.TC05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC05" />
         <item itemvalue="TestNG.TC04" />
         <item itemvalue="Application.WrapperCLASS" />
         <item itemvalue="TestNG.TC03.TestCase3" />
         <item itemvalue="TestNG.TC02.Testcase2" />
-        <item itemvalue="TestNG.TC01.TC001" />
       </list>
     </recent_temporary>
   </component>
@@ -412,44 +428,45 @@
       <workItem from="1525976323497" duration="2935000" />
       <workItem from="1526147292058" duration="1885000" />
       <workItem from="1526400099652" duration="50000" />
-      <workItem from="1526400227234" duration="6510000" />
+      <workItem from="1526400227234" duration="7769000" />
+      <workItem from="1526836454802" duration="3754000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TC04 - 2018.05.15 at 22h 26m 45s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 22m 15s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 22h 29m 53s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 23m 09s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 22h 35m 22s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 33m 51s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 22h 40m 18s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 38m 24s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 22h 50m 47s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 39m 00s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 22h 52m 24s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 40m 09s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 23h 01m 08s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 42m 15s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 23h 12m 24s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 43m 59s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 23h 16m 18s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 46m 23s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC04 - 2018.05.15 at 23h 19m 34s.xml">
-      <configuration name="TC04" configurationId="TestNG" />
+    <history-entry file="TC05 - 2018.05.20 at 23h 46m 51s.xml">
+      <configuration name="TC05" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101889000" />
+    <option name="totallyTimeSpent" value="106902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -464,11 +481,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3034591" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3034591" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.24304539" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.24304539" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5011287" side_tool="true" weight="0.24963397" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,13 +521,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaBasic/StaticArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaBasic/conceptofloops.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -794,16 +804,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaBasic/WrapperCLASS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="935">
           <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -813,15 +816,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="1139">
           <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaBasic/WrapperCLASS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="541">
+          <caret line="77" column="142" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ecommerce/TC05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
