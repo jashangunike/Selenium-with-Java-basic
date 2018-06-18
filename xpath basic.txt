@@ -1,0 +1,27 @@
+//tagName[@attribute='value']
+
+//input[@value='Log In']   - this is my xpath for fb
+
+//*[@type='email']
+
+
+//*[@class='active']
+
+tagName[attribute='value'] --- CSS
+
+tagName#id ----- CSS
+tagname#username ---- CSS
+tagName.Classname ------ CSS
+
+
+$("Xpath") --- check in chrome
+
+
+Regular Expression
+
+//tagName[contains(@attribute,'value')]   ---- xpath
+
+tagName[Attribute*='value'] ====== CSS
+
+
+
