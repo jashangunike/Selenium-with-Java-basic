@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
@@ -19,8 +20,8 @@ import java.util.concurrent.TimeUnit;
 public class DragAndDrop {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "H:\\software\\Selenium & Java & Components\\drivers\\chromedriverlat\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver","H:\\software\\Selenium & Java & Components\\drivers\\geckodriver\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
 
         driver.manage().window().maximize();
         driver.get("https://jqueryui.com/droppable/");
@@ -28,7 +29,8 @@ public class DragAndDrop {
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        driver.switchTo().frame(0);
+       // driver.switchTo().frame(0);
+        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='demo-frame']")));
 
         WebElement drag = driver.findElement(By.xpath("//*[@id=\"draggable\"]/p"));
 
@@ -37,6 +39,6 @@ public class DragAndDrop {
         Actions action = new Actions(driver);
         action.moveToElement(drag).dragAndDrop(drag, drop).build().perform();
 
-
+        driver.switchTo().defaultContent();
     }
 }
